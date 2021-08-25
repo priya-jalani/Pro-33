@@ -8,7 +8,7 @@ var snow;
  var engine, world;
 
  function preload(){
-  
+  // load background image
 
  }
  function setup() {
