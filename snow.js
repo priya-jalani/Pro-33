@@ -8,7 +8,7 @@ class Snow  {
         this.body = Bodies.rectangle(x, y, 40,40, options);
         this.width = 40;
         this.height = 40;
-        this.image = loadImage("snow4.webp");
+        //this.image = loadImage("snow4.webp");
         World.add(world, this.body);
     }
     display(){
