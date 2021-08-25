@@ -20,6 +20,8 @@ var snow;
   snow1=new Snow(120,30);
   snow2=new Snow(220,30);
   
+  //create 3 more objects of snow
+  
 
 }
 
@@ -30,6 +32,8 @@ function draw() {
   snow1.update();
   snow2.display();
   snow2.update();
+ 
+ // call display & update for rest of the snow objects
  
   
   drawSprites();
