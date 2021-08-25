@@ -12,7 +12,7 @@ class Snow  {
         World.add(world, this.body);
     }
     display(){
-       
+       // write code here to display image
     }
     update(){
         if(this.body.position.y>height){
